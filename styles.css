@@ -1,0 +1,45 @@
+/* This so I just don't have to deal with default margins and can set my own 
+ Maybe I will delete this later, only time will tell*/
+* {
+    margin: 0;
+}
+
+html {
+    margin: 1em 0.75em;
+}
+
+nav {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Send the list to the end of the page */
+.navigation {
+    /* first we need to remove the default styling for lists */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* Maybe this is overkill, will change it if I find a better way */
+    display: flex;
+}
+
+/* Add separator to each navigation item */
+.navigation li:after {
+    content: "  /  ";
+}
+/* remove the last "/" of the navigation items */
+.navigation li:last-child:after {
+    content: "";
+}
+
+/* Remove the default style of links for the navigation items */
+.navigation li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Set the color of the hovered over element to gray (or any other later) */
+.navigation li a:hover {
+    color: gray;
+}
