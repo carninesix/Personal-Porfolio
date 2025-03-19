@@ -1,12 +1,60 @@
+/* FONTS IMPORT */
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/open-sans-v40-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/fonts/open-sans-v40-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* open-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/open-sans-v40-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/fonts/open-sans-v40-latin-italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/open-sans-v40-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/fonts/open-sans-v40-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* open-sans-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/open-sans-v40-latin-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/fonts/open-sans-v40-latin-700italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+
 /* This so I just don't have to deal with default margins and can set my own 
  Maybe I will delete this later, only time will tell*/
 * {
     margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 html {
     margin: 1em 0.75em;
 }
+
+/*
+ * GLOBAL RULES
+ */
+
 
 nav {
     font-size: 1.2em;
@@ -42,4 +90,30 @@ nav {
 /* Set the color of the hovered over element to gray (or any other later) */
 .navigation li a:hover {
     color: gray;
+}
+
+#page-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    margin: 1.5em 0;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+}
+
+/*
+ * PROJECTS PAGE
+ */
+
+/*
+ * ARTICLES PAGE
+ */
+
+#article-container {
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
 }
