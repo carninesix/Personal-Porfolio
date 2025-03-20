@@ -48,13 +48,17 @@
 }
 
 html {
-    margin: 1em 0.75em;
+    margin: 1em 0;
 }
+
 
 /*
  * GLOBAL RULES
  */
 
+header {
+    margin: 0 0.75em;
+}
 
 nav {
     font-size: 1.2em;
@@ -104,13 +108,14 @@ nav {
     justify-content: center;
 }
 
+
 /*
  * MAIN PAGE
  */ 
 
 .main-title {
     text-align: center;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -129,25 +134,41 @@ nav {
 .grid-container {
     display: grid;
     grid-template:
-        "projects work work work work work education education education education"
-        "projects other other other other other education education education education";
-    text-align: center;
+        "projects projects work work work education education education"
+        "projects projects other other other education education education";
+    border-style: solid none;
+    border-width: 1.5px;
+    height: 30vh;
+}
+
+.grid-container h3 {
+    margin: 1em 0.75em;
 }
 
 .projects {
     grid-area: projects;
+    border-right-style: solid;
+    border-width: 1.5px
 }
 
 .work {
     grid-area: work;
+    border-style: none solid solid none;
+    border-width: 1.5px;
 }
 
 .other {
     grid-area: other;
+    border-right-style: solid;
+    border-width: 1.5px;
 }
 
 .education {
     grid-area: education;
+}
+
+.reviews {
+    margin: 1.5em;
 }
 
 /*

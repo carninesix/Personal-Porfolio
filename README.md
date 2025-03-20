@@ -8,7 +8,7 @@ You can find the instructions and requirements, along with the muckups this was 
 ### General stuff
 - Finish populating `index.html`
 - Add responsive design for mobile browsing
-- Add bottom content (don't remember the name for that rn)
+- Add footer
 
 ### Front page
 - Use grid (seems easier that way)
