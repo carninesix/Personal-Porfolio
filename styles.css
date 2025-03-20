@@ -105,6 +105,52 @@ nav {
 }
 
 /*
+ * MAIN PAGE
+ */ 
+
+.main-title {
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10vh 0;
+}
+
+.main-title h2 {
+    font-size: 4vw;
+}
+
+.main-title p {
+    color: gray;
+    font-size: 1vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-template:
+        "projects work work work work work education education education education"
+        "projects other other other other other education education education education";
+    text-align: center;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.work {
+    grid-area: work;
+}
+
+.other {
+    grid-area: other;
+}
+
+.education {
+    grid-area: education;
+}
+
+/*
  * PROJECTS PAGE
  */
 
