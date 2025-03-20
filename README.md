@@ -11,7 +11,8 @@ You can find the instructions and requirements, along with the muckups this was 
 - Add footer
 
 ### Front page
-- Use grid (seems easier that way)
+- Populate grid
+- Create fake reviews
 
 ### Projects
 - Make it more like the Articles page (3 cards per row with flexbox)
