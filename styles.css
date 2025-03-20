@@ -189,6 +189,16 @@ nav {
     grid-area: education;
 }
 
+.courses {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.courses li:before {
+    content: "- ";
+}
+
 .reviews {
     margin: 1.5em;
 }
