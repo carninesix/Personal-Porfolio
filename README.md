@@ -6,12 +6,9 @@ You can find the instructions and requirements, along with the muckups this was 
 
 ## TO DO
 ### General stuff
-- Finish populating `index.html`
 - Add responsive design for mobile browsing
-- Add footer
 
 ### Front page
-- Create fake reviews
 
 ### Projects
 

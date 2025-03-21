@@ -207,6 +207,31 @@ nav {
     margin: 1.5em;
 }
 
+.review-container {
+    margin-top: 1em;
+    display: flex;
+}
+
+.review-item {
+    margin: 1.5em 0.75em;
+    padding: 1.5em 0.75em;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 1em;
+    flex: 1;
+}
+
+.gray-color {
+    color: gray;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.75em;
+}
+
+
 /*
  * PROJECTS PAGE
  */
