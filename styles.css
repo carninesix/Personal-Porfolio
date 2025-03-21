@@ -77,11 +77,11 @@ nav {
 }
 
 /* Add separator to each navigation item */
-.navigation li:after {
+.navigation li::after {
     content: "  /  ";
 }
 /* remove the last "/" of the navigation items */
-.navigation li:last-child:after {
+.navigation li:last-child::after {
     content: "";
 }
 
@@ -201,7 +201,7 @@ nav {
     padding: 0;
 }
 
-.courses li:before {
+.courses li::before {
     content: "- ";
 }
 
