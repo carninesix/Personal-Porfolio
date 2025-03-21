@@ -145,6 +145,10 @@ nav {
     margin: 1em 0.75em;
 }
 
+.grid-item h4, .grid-item p, .courses {
+    margin: 0 1em;
+}
+
 .projects {
     grid-area: projects;
     border-right-style: solid;
@@ -191,7 +195,7 @@ nav {
 
 .courses {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 1em;
     padding: 0;
 }
 
