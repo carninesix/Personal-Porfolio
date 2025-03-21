@@ -246,26 +246,13 @@ nav {
  * CONTACT PAGE
  */
 
-#name {
-    width: 100%;
-}
-
-#email {
-    width: 100%;
-}
-
-#email:invalid {
-    border-color: red;
-}
-
-#email:valid {
-    border-color: green;
-}
-
-#message {
-    width: 100%;
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #submit-form {
-    justify-self: center;
+    margin-top: 0.5rem;
+    align-self: center;
 }
