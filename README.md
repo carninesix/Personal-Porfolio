@@ -11,14 +11,10 @@ You can find the instructions and requirements, along with the muckups this was 
 - Add footer
 
 ### Front page
-- Populate grid
 - Create fake reviews
 
 ### Projects
-- Make it more like the Articles page (3 cards per row with flexbox)
 
 ### Articles
-- Write something interesting (optionally just add LOREM IPSUM content)
 
 ### Contact
-- Make the contact form look kind of good
