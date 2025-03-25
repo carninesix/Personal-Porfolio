@@ -48,7 +48,8 @@
 }
 
 html {
-    margin: 1em 0;
+    min-height: 100vh;
+    position: relative;
 }
 
 
@@ -61,6 +62,7 @@ header {
 }
 
 nav {
+    margin-top: 0.75em;
     font-size: 1.2em;
     display: flex;
     justify-content: space-between;
@@ -235,6 +237,8 @@ footer {
     width: 100%;
     text-align: center;
     margin-bottom: 0.75em;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -327,6 +331,43 @@ form {
         border-bottom-style: none;
         border-top-style: solid;
         padding: 0.5em 0;
+        margin: 0;
+    }
+
+    .work {
+        padding: 0 0 1em 0;
+    }
+
+    .other {
+        border-right-style: none;
+        border-bottom-style: solid;
+        padding: 0 0 1em 0;
+    }
+
+
+    /*
+     * Projects Page
+     */
+    .project-container {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .project-item {
+        margin: 0;
+    }
+
+
+    /*
+     * Articles Page
+     */
+
+    #article-container {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    #article-container .article {
         margin: 0;
     }
 }

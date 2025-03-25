@@ -6,17 +6,16 @@ You can find the instructions and requirements, along with the muckups this was 
 
 ## TO DO
 ### General stuff
-- Add responsive design for mobile browsing
+- Add breaking point for screens with the width 320px, since it breaks the navbar and the footer start to wrap
+- Apparently the "Work Experience" section is just one and is not a different one from "OpenSource work"
 
 ### Front page
-- Make the navigation bar responsive
-- Make the grid component behave according to the mockups when in mobile view
+- Finish setting the Work experience section
+- give the work experience section the same background as the Projects list
 
 ### Projects
-- Make the page responsive
 
 ### Articles
-- Add responsive media queries
 
 ### Contact
-- Same
+- Make the inputs more accessible to small screens
